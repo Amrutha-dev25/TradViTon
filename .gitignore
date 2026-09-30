@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.idea/
+.vscode/
+
+# Your images and generated artifacts are not committed
+dataset/maharashtra/*
+dataset/non_maharashtra/*
+test_images/*
+models/*
+outputs/*
+!.gitkeep
